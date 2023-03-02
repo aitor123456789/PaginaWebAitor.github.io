@@ -1,0 +1,146 @@
+* {
+    margen: 0;
+    relleno: 0;
+    tamaño de caja: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+cuerpo {
+    Altura: 100VH;
+    Pantalla: Flex;
+    align-items: centro;
+    justificar-contenido: centro;
+    background-image: url(img/3.jpg);
+    Antecedentes-posición: centro;
+    background-repeat: no-repeat;
+    tamaño de fondo: cubierta;
+    Color: #FFF;
+}
+
+. forma de contenedor {
+    Anchura: 90%;
+    Altura: 90VH;
+    Pantalla: Flex;
+    justificar-contenido: espacio-alrededor;
+    transición: todos los .5s ease-out;
+}
+
+. Bienvenidos de nuevo {
+    Pantalla: Flex;
+    align-items: centro;
+    alineación de texto: centro;
+}
+
+. Mensaje {
+    Acolchado: 1rem;
+}
+
+. Mensaje H2 {
+    Tamaño de fuente: 1.7REM;
+    Acolchado: 1rem 0;
+}
+
+. Botón de mensaje  {
+    Acolchado: 1rem;
+    font-weight: 400;
+    color de fondo: #4a4aee;
+    Radio de borde: 2REM;
+    borde: ninguno;
+    esquema: ninguno;
+    cursor: puntero;
+    Tamaño de fuente: .9REM;
+    Margin-top: 2REM;
+    transición: todos .3s facilidad-in;
+    Color: #FFF;
+}
+
+.botón de mensaje:desplazar {
+    color de fondo: #6464f8;
+}
+
+.formulario {
+    Anchura: 400px;
+    Acolchado: 1rem;
+    Margen: 2REM;
+    color de fondo: RGB (51, 51, 51, 0.602 );
+    alineación de texto: centro;
+}
+
+.crear cuenta {
+    Acolchado: 2.7rem 0;
+    Tamaño de fuente: 1.7REM;
+}
+
+.iconos {
+    Anchura: 200px;
+    Pantalla: Flex;
+    justificar-contenido: espacio-alrededor;
+    margen: automático;
+}
+
+.border-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover {
+    background-color: #4a4aee;
+    cursor: pointer;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    Anchura: 70%;
+    Pantalla: bloque;
+    margen: automático;
+    Margen inferior: 2REM;
+    fondo-color: transparente;
+    borde: ninguno;
+    borde-fondo: blanco delgado sólido;
+    alineación de texto: centro;
+    esquema: ninguno;
+    Acolchado: .2REM 0;
+    Tamaño de fuente: .9REM;
+    color: blanco;
+}
+
+.formulario input[type="button"] {
+    Anchura: 60%;
+    margen: automático;
+    borde: blanco sólido delgado;
+    Acolchado: .7rem;
+    Radio de borde: 2REM;
+    fondo-color:blanco;
+    font-weight: 600;
+    Margin-top: 3REM;
+    Tamaño de fuente: .8REM;
+    cursor: puntero;
+    Color: #222;
+}
+
+.Inicio de sesión {
+    Posición: absoluta;
+    Opacidad: 0;
+    visibilidad: oculto;
+}
+
+. niciar sesión. activo {
+    Opacidad: 1;
+    visibilidad: visible;
+}
+
+. Regístrese. activo {
+    Opacidad: 0;
+    visibilidad: oculto;
+}

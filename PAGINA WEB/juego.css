@@ -1,0 +1,55 @@
+.borde {
+    width: 100%;
+height: 100vh;
+min-height: 600px;
+max-height: 800px;
+position: relative;
+display: grid;
+grid-template-rows: 100px 1fr;
+color: #000000;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(180deg, #0303038c 0%, #2b2929e7 100%), url(lol123.png);
+background-size: cover;
+clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+z-index: -1;
+
+}
+
+body{
+    background-color: #c1d8e0;
+
+}
+
+
+.buttom{
+    
+   margin-top: 900px;
+    width:40px;
+    height: 40px;
+}
+
+
+
+.lol{
+    font-size:30px;
+    text-align:justify;
+    margin-left: 545px;
+    margin-top:-60px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-line:underline;
+}
+
+.ezreal{
+    margin-top:-330px;
+}
+
+.ashe{
+
+ 
+    margin-top: -400px;
+    margin-left:1260px;
+}

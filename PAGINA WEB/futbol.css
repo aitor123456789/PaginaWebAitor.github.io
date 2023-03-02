@@ -1,0 +1,71 @@
+.cuadro{
+
+
+ width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0303038c 0%, #2b2929e7 100%), url(wanda.png);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+    
+}
+
+body{
+    background-color: #e0dbdb;
+
+}
+
+
+.atleti{
+
+    font-size:30px;
+    text-align:justify;
+    margin-top: 900px;
+    margin-left: 545px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-line:underline;
+    
+   
+}
+
+
+.escudo{
+
+    width: 170px;
+    margin-top: -500px;
+    margin-left:130px;
+   
+    
+
+}
+
+.escudo2{
+
+width: 190px;
+margin-top: -400px;
+margin-left:1260px;
+}
+
+
+.atras{
+
+    width:40px;
+    height: 40px;
+    margin-right: 700px;
+}
+ 
+
+
+
+

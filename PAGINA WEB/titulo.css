@@ -1,0 +1,22 @@
+
+body{
+    
+    background: url(partedeabajo.png);
+    margin-top: 40px;
+   
+    
+
+}
+
+.principal{
+
+    font-size:30px;
+    text-align: center;
+    color:rgb(7, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line:underline;
+    margin-top: 70px;
+}
+
+
+
